@@ -1,0 +1,46 @@
+{
+  "modified": "Tue Sep 03 2019 10:04:58 GMT+0800 (中国标准时间)",
+  "background": "rgb(124,145,155)",
+  "width": 110,
+  "height": 37.84192,
+  "attachStyle": "close",
+  "comps": [
+    {
+      "type": "rect",
+      "background": "rgba(6,13,36,0.8)",
+      "borderWidth": 2,
+      "borderColor": "rgb(0,151,219)",
+      "selectable": false,
+      "rect": [
+        0,
+        0,
+        110,
+        37.84192
+      ]
+    },
+    {
+      "type": "text",
+      "text": "滤网",
+      "color": "rgb(247,247,247)",
+      "font": "17px sans-serif, Arial",
+      "rect": [
+        10.98387,
+        5.324,
+        109.17302,
+        32.51792
+      ]
+    },
+    {
+      "type": "text",
+      "text": "正常",
+      "color": "rgb(247,247,247)",
+      "font": "16px sans-serif, Arial",
+      "rect": [
+        60.91056,
+        -16.92534,
+        95.19355,
+        78.29584
+      ]
+    }
+  ]
+}

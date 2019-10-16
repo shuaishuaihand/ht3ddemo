@@ -1,0 +1,649 @@
+{
+  "modified": "Tue Aug 27 2019 15:32:36 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "number1",
+      "valueType": "String",
+      "name": "用电量"
+    },
+    {
+      "attr": "number2",
+      "valueType": "String",
+      "name": "供暖量"
+    },
+    {
+      "attr": "number3",
+      "valueType": "String",
+      "name": "通风量"
+    },
+    {
+      "attr": "number4",
+      "valueType": "String",
+      "name": "甲烷指数"
+    }
+  ],
+  "width": 1607,
+  "height": 712,
+  "attachStyle": "close",
+  "comps": [
+    {
+      "type": "rect",
+      "background": "rgba(10,10,10,0.48)",
+      "borderColor": "#979797",
+      "selectable": false,
+      "rect": [
+        0,
+        0,
+        1607,
+        714.78724
+      ]
+    },
+    {
+      "type": "rect",
+      "background": "rgb(240,240,240)",
+      "borderColor": "#979797",
+      "rect": [
+        90.00008,
+        121.00006,
+        10.78657,
+        60.42535
+      ]
+    },
+    {
+      "type": "rect",
+      "background": "rgb(240,240,240)",
+      "borderColor": "#979797",
+      "rotation": 1.5708,
+      "rect": [
+        102.84239,
+        108.15774,
+        15.73576,
+        41.42041
+      ]
+    },
+    {
+      "type": "rect",
+      "background": "rgb(240,240,240)",
+      "borderColor": "#979797",
+      "rotation": -1.5708,
+      "rect": [
+        102.84239,
+        627.4218,
+        15.73576,
+        41.42041
+      ]
+    },
+    {
+      "type": "rect",
+      "background": "rgb(240,240,240)",
+      "borderColor": "#979797",
+      "rect": [
+        90.00008,
+        593.57456,
+        10.78657,
+        60.42535
+      ]
+    },
+    {
+      "type": "rect",
+      "background": "rgb(124,145,155)",
+      "borderColor": "#979797",
+      "rotation": 3.14159,
+      "rect": [
+        90.00008,
+        251.12069,
+        3.36822,
+        228.37631
+      ]
+    },
+    {
+      "type": "rect",
+      "background": "rgb(240,240,240)",
+      "borderColor": "#979797",
+      "rotation": 4.71239,
+      "rect": [
+        412.05871,
+        449.47355,
+        4.91365,
+        421.96691
+      ]
+    },
+    {
+      "type": "text",
+      "text": "( KPa )",
+      "color": "rgba(192,200,204,0.78)",
+      "font": "14px arial, sans-serif",
+      "scaleX": 2,
+      "scaleY": 2,
+      "rect": [
+        669.90653,
+        195.32634,
+        54.7241,
+        40.9561
+      ]
+    },
+    {
+      "type": "text",
+      "text": "( KPa )",
+      "color": "rgba(192,200,204,0.78)",
+      "font": "14px arial, sans-serif",
+      "scaleX": 2,
+      "scaleY": 2,
+      "rect": [
+        676.40152,
+        305.07601,
+        67.71408,
+        40.9561
+      ]
+    },
+    {
+      "type": "text",
+      "text": "(m3/h)",
+      "color": "rgba(192,200,204,0.78)",
+      "font": "14px arial, sans-serif",
+      "scaleX": 2,
+      "scaleY": 2,
+      "rect": [
+        676.40152,
+        424.20813,
+        67.71408,
+        40.9561
+      ]
+    },
+    {
+      "type": "text",
+      "text": "( m3/h )",
+      "color": "rgba(192,200,204,0.78)",
+      "font": "14px arial, sans-serif",
+      "scaleX": 2,
+      "scaleY": 2,
+      "rect": [
+        669.90653,
+        544.77462,
+        54.7241,
+        52.67508
+      ]
+    },
+    {
+      "type": "text",
+      "text": "冷源系统设备参数",
+      "color": "rgb(51,58,255)",
+      "font": "52px sans-serif, Arial",
+      "rect": [
+        562.26638,
+        69.56454,
+        50,
+        50
+      ]
+    },
+    {
+      "type": "rect",
+      "background": "rgb(240,240,240)",
+      "borderColor": "#979797",
+      "rotation": 3.14159,
+      "rect": [
+        1500.80793,
+        588.13911,
+        10.78657,
+        60.42535
+      ]
+    },
+    {
+      "type": "rect",
+      "background": "rgb(240,240,240)",
+      "borderColor": "#979797",
+      "rotation": -1.5708,
+      "rect": [
+        1483.01641,
+        626.98635,
+        15.73576,
+        41.42041
+      ]
+    },
+    {
+      "type": "rect",
+      "background": "rgb(240,240,240)",
+      "borderColor": "#979797",
+      "rotation": 1.5708,
+      "rect": [
+        1483.01641,
+        106.72229,
+        15.73576,
+        41.42041
+      ]
+    },
+    {
+      "type": "rect",
+      "background": "rgb(240,240,240)",
+      "borderColor": "#979797",
+      "rotation": 3.14159,
+      "rect": [
+        1500.80793,
+        119.56461,
+        10.78657,
+        60.42535
+      ]
+    },
+    {
+      "type": "rect",
+      "background": "rgb(184,191,194)",
+      "borderColor": "#979797",
+      "rotation": 3.14159,
+      "rect": [
+        1508.22628,
+        249.68524,
+        3.36822,
+        228.37631
+      ]
+    },
+    {
+      "type": "rect",
+      "background": "rgb(124,145,155)",
+      "borderColor": "#979797",
+      "rotation": 3.14159,
+      "rect": [
+        777.9732,
+        181.49989,
+        6.61036,
+        414.93802
+      ]
+    },
+    {
+      "type": "rect",
+      "background": "rgb(240,240,240)",
+      "borderColor": "#979797",
+      "rotation": 4.71239,
+      "rect": [
+        1218.13633,
+        445.38763,
+        4.91365,
+        421.96691
+      ]
+    },
+    {
+      "type": "text",
+      "text": "( ℃ )",
+      "color": "rgba(192,200,204,0.78)",
+      "font": "14px arial, sans-serif",
+      "scaleX": 2,
+      "scaleY": 2,
+      "rect": [
+        1417.63461,
+        193.89089,
+        48.8976,
+        40.9561
+      ]
+    },
+    {
+      "type": "text",
+      "text": "(℃ )",
+      "color": "rgba(192,200,204,0.78)",
+      "font": "14px arial, sans-serif",
+      "scaleX": 2,
+      "scaleY": 2,
+      "rect": [
+        1417.63461,
+        303.64056,
+        48.8976,
+        40.9561
+      ]
+    },
+    {
+      "type": "text",
+      "text": "(℃)",
+      "color": "rgba(192,200,204,0.78)",
+      "font": "14px arial, sans-serif",
+      "scaleX": 2,
+      "scaleY": 2,
+      "rect": [
+        1417.63461,
+        422.77268,
+        48.8976,
+        40.9561
+      ]
+    },
+    {
+      "type": "text",
+      "text": "( ℃ )",
+      "color": "rgba(192,200,204,0.78)",
+      "font": "14px arial, sans-serif",
+      "scaleX": 2,
+      "scaleY": 2,
+      "rect": [
+        1417.63461,
+        537.47968,
+        48.8976,
+        40.9561
+      ]
+    },
+    {
+      "type": "text",
+      "text": "集水器压力",
+      "color": "rgb(51,58,255)",
+      "font": "35px sans-serif, Arial",
+      "rect": [
+        260.23137,
+        181.49988,
+        151.0175,
+        71.29719
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@jsq_pressure",
+        "value": "34.6"
+      },
+      "color": {
+        "func": "__ht__function(data, view) {\nif(data.a('jsq_pressure')>60){\r\n   return 'red';\r\n}else{\r\n    return 'rgb(247,247,247)';\r\n}\n}",
+        "value": "rgb(247,247,247)"
+      },
+      "font": "35px sans-serif, Arial",
+      "rect": [
+        512.26638,
+        192.14848,
+        50,
+        50
+      ]
+    },
+    {
+      "type": "text",
+      "text": "分水器压力",
+      "color": "rgb(51,58,255)",
+      "font": "35px sans-serif, Arial",
+      "rect": [
+        259.9386,
+        296.27022,
+        151.0175,
+        71.29719
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@fsq_pressure",
+        "value": "45.8"
+      },
+      "color": {
+        "func": "__ht__function(data, view) {\nif(data.a('fsq_pressure')>60){\r\n   return 'red';\r\n}else{\r\n    return 'rgb(247,247,247)';\r\n}\n}",
+        "value": "rgb(247,247,247)"
+      },
+      "font": "35px sans-serif, Arial",
+      "displayName": "45.8",
+      "rect": [
+        516.33318,
+        301.77166,
+        50,
+        50
+      ]
+    },
+    {
+      "type": "text",
+      "text": "冷冻水流量",
+      "color": "rgb(51,58,255)",
+      "font": "35px sans-serif, Arial",
+      "rect": [
+        262.51217,
+        424.94886,
+        151.0175,
+        71.29719
+      ]
+    },
+    {
+      "type": "text",
+      "text": "冷却水流量",
+      "color": "rgb(51,58,255)",
+      "font": "35px sans-serif, Arial",
+      "rect": [
+        262.51217,
+        540.75964,
+        152.00336,
+        71.29719
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@lds_flow",
+        "value": "63.1"
+      },
+      "color": {
+        "func": "__ht__function(data, view) {\nif(data.a('lds_flow')>60){\r\n   return 'red';\r\n}else{\r\n    return 'rgb(247,247,247)';\r\n}\n}",
+        "value": "rgb(247,247,247)"
+      },
+      "font": "35px sans-serif, Arial",
+      "rect": [
+        521.48033,
+        425.30316,
+        50,
+        50
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@lqs_flow",
+        "value": "59.2"
+      },
+      "color": {
+        "func": "__ht__function(data, view) {\nif(data.a('lqs_flow')>60){\r\n   return 'red';\r\n}else{\r\n    return 'rgb(247,247,247)';\r\n}\n}",
+        "value": "rgb(247,247,247)"
+      },
+      "font": "35px sans-serif, Arial",
+      "rect": [
+        518.90676,
+        538.70663,
+        50,
+        67.84875
+      ]
+    },
+    {
+      "type": "text",
+      "text": "冷冻水总供水温度",
+      "color": "rgb(51,58,255)",
+      "font": "35px sans-serif, Arial",
+      "rect": [
+        931.25894,
+        177.85525,
+        229.36826,
+        71.29719
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@ldsprovide_temperature",
+        "value": "4.3"
+      },
+      "color": {
+        "func": "__ht__function(data, view) {\nif(data.a('ldsprovide_temperature')>60){\r\n   return 'red';\r\n}else{\r\n    return 'rgb(247,247,247)';\r\n}\n}",
+        "value": "rgb(247,247,247)"
+      },
+      "font": "35px sans-serif, Arial",
+      "rect": [
+        1257.37503,
+        192.14848,
+        50,
+        50
+      ]
+    },
+    {
+      "type": "text",
+      "text": "冷冻水总回水温度",
+      "color": "rgb(51,58,255)",
+      "font": "35px sans-serif, Arial",
+      "rect": [
+        931.25894,
+        293.77752,
+        199.04025,
+        71.29719
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@ldsreturn_temperature",
+        "value": "15.3"
+      },
+      "color": {
+        "func": "__ht__function(data, view) {\nif(data.a('ldsreturn_temperature')>60){\r\n   return 'red';\r\n}else{\r\n    return 'rgb(247,247,247)';\r\n}\n}",
+        "value": "rgb(247,247,247)"
+      },
+      "font": "35px sans-serif, Arial",
+      "rect": [
+        1266.36132,
+        299.11861,
+        82.80152,
+        50
+      ]
+    },
+    {
+      "type": "text",
+      "text": "冷却水总供水温度",
+      "color": "rgb(51,58,255)",
+      "font": "35px sans-serif, Arial",
+      "rect": [
+        934.10095,
+        411.94412,
+        151.0175,
+        71.29719
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@lqsprovide_temperature",
+        "value": "2.4"
+      },
+      "color": {
+        "func": "__ht__function(data, view) {\nif(data.a('lqsprovide_temperature')>60){\r\n   return 'red';\r\n}else{\r\n    return 'rgb(247,247,247)';\r\n}\n}",
+        "value": "rgb(247,247,247)"
+      },
+      "font": "35px sans-serif, Arial",
+      "rect": [
+        1277.37503,
+        428.06155,
+        50,
+        50
+      ]
+    },
+    {
+      "type": "text",
+      "text": "冷却水总回水温度",
+      "color": "rgb(51,58,255)",
+      "font": "35px sans-serif, Arial",
+      "rect": [
+        934.10095,
+        527.96488,
+        151.0175,
+        71.29719
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@lqsreturn_temperature",
+        "value": "12.1"
+      },
+      "color": {
+        "func": "__ht__function(data, view) {\nif(data.a('lqsreturn_temperature')>60){\r\n   return 'red';\r\n}else{\r\n    return 'rgb(247,247,247)';\r\n}\n}",
+        "value": "rgb(247,247,247)"
+      },
+      "font": "35px sans-serif, Arial",
+      "rect": [
+        1286.66132,
+        540.75964,
+        61.01371,
+        50
+      ]
+    },
+    {
+      "type": "image",
+      "name": "js/deviceMonitor/ht/airConditioner/assets/外部图片/压力.png",
+      "displayName": "压力",
+      "rect": [
+        124.93059,
+        192.76049,
+        64,
+        64
+      ]
+    },
+    {
+      "type": "image",
+      "name": "js/deviceMonitor/ht/airConditioner/assets/外部图片/压力.png",
+      "displayName": "压力",
+      "rect": [
+        125.50837,
+        301.70801,
+        64,
+        64
+      ]
+    },
+    {
+      "type": "image",
+      "name": "js/deviceMonitor/ht/airConditioner/assets/外部图片/流量.png",
+      "displayName": "流量",
+      "rect": [
+        124.93059,
+        420.20683,
+        64,
+        64
+      ]
+    },
+    {
+      "type": "image",
+      "name": "js/deviceMonitor/ht/airConditioner/assets/外部图片/流量.png",
+      "displayName": "流量",
+      "rect": [
+        125.50837,
+        547.47141,
+        64,
+        64
+      ]
+    },
+    {
+      "type": "image",
+      "name": "js/deviceMonitor/ht/airConditioner/assets/外部图片/温度.png",
+      "displayName": "温度",
+      "rect": [
+        823.5,
+        177.85525,
+        64,
+        64
+      ]
+    },
+    {
+      "type": "image",
+      "name": "js/deviceMonitor/ht/airConditioner/assets/外部图片/温度.png",
+      "displayName": "温度",
+      "rect": [
+        822.74824,
+        294.42614,
+        64,
+        64
+      ]
+    },
+    {
+      "type": "image",
+      "name": "js/deviceMonitor/ht/airConditioner/assets/外部图片/温度.png",
+      "displayName": "温度",
+      "rect": [
+        822.74824,
+        407.29525,
+        64,
+        64
+      ]
+    },
+    {
+      "type": "image",
+      "name": "js/deviceMonitor/ht/airConditioner/assets/外部图片/温度.png",
+      "displayName": "温度",
+      "rect": [
+        819.1073,
+        525.62578,
+        64,
+        64
+      ]
+    }
+  ]
+}

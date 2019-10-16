@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hand.hand.mapper.HospitalSpaceMapper">
+    
+    <resultMap type="com.hand.hand.domain.HospitalSpace" id="HospitalSpaceResult">
+        <id property="id"    column="id"    />
+        <result property="name"    column="name"    />
+        <result property="pid"    column="pid"    />
+        <result property="pname" column="pname" /> 
+        <result property="sortno"    column="sortno"    />
+        <result property="grade"    column="grade"    />
+        <result property="delFlag"    column="del_flag"    />
+        <result property="icon"    column="icon"    />
+        <result property="remark"    column="remark"    />
+        <result property="createBy"   column="create_by"   />
+		<result property="createTime" column="create_time" />
+		<result property="updateBy"   column="update_by"   />
+		<result property="updateTime" column="update_time" />
+    </resultMap>
+
+
+    <sql id="selectHospitalSpaceVo">
+        select id, name, create_by,create_time,update_by,update_time,pid, sortno, grade, del_flag, icon, remark from hospital_space
+    </sql>
+
+
+	
+	<select id="selectSonSpaceCount" parameterType="Long" resultType="int">
+		select count(1) from hospital_space
+		where del_flag = 0 and pid = #{pid} 
+	</select>
+
+    <select id="selectHospitalSpaceList" parameterType="com.hand.hand.domain.HospitalSpace" resultMap="HospitalSpaceResult">
+        <include refid="selectHospitalSpaceVo"/>
+        where  del_flag =  0
+        <if test="id != null "> and id = #{id}</if>
+        <if test="name != null  and name != '' "> and name like concat('%',#{name},'%')</if>
+        <if test="pid != null "> and pid = #{pid}</if>
+        <if test="sortno != null "> and sortno = #{sortno}</if>
+        <if test="grade != null "> and grade = #{grade}</if>
+        <if test="icon != null  and icon != '' "> and icon = #{icon}</if>
+        <if test="remark != null  and remark != '' "> and remark = #{remark}</if>
+        order by pid,sortno
+    </select>
+</mapper>

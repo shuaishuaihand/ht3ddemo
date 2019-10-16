@@ -1,0 +1,113 @@
+{
+  "modified": "Mon Feb 25 2019 11:44:15 GMT+0800 (中国标准时间)",
+  "width": 474,
+  "height": 260,
+  "boundExtend": 24,
+  "attachStyle": "close",
+  "comps": [
+    {
+      "type": "image",
+      "name": "js/deviceMonitor/ht/floor/symbols/3d场景用/标签/指向标签.json",
+      "displayName": "指向标签",
+      "rect": [
+        0,
+        0,
+        473.24688,
+        244.51886
+      ]
+    },
+    {
+      "type": "text",
+      "text": "设备编号",
+      "align": "center",
+      "color": "rgb(247,247,247)",
+      "font": "18px arial, sans-serif",
+      "anchorX": 0.2884,
+      "anchorY": 0.35576,
+      "rect": [
+        0,
+        -0.55802,
+        124.73002,
+        54.30585
+      ]
+    },
+    {
+      "type": "text",
+      "text": "ABCDHT666",
+      "color": "#FEB64D",
+      "font": "bold 24px Arial",
+      "anchorX": 0.2884,
+      "anchorY": 0.35576,
+      "rect": [
+        124.73002,
+        15.39537,
+        143.19654,
+        22.39906
+      ]
+    },
+    {
+      "type": "text",
+      "text": "设备名称",
+      "align": "center",
+      "color": "rgb(247,247,247)",
+      "font": "18px arial, sans-serif",
+      "anchorX": 0.2884,
+      "anchorY": 0.35576,
+      "rect": [
+        0,
+        31.34877,
+        124.73002,
+        54.30585
+      ]
+    },
+    {
+      "type": "text",
+      "text": "运行状态",
+      "align": "center",
+      "color": "rgb(247,247,247)",
+      "font": "18px arial, sans-serif",
+      "anchorX": 0.2884,
+      "anchorY": 0.35576,
+      "rect": [
+        0,
+        63.25556,
+        124.73002,
+        54.30585
+      ]
+    },
+    {
+      "type": "text",
+      "text": "服务器设备",
+      "color": "#FEB64D",
+      "font": "bold 24px Arial",
+      "anchorX": 0.2884,
+      "anchorY": 0.35576,
+      "rect": [
+        124.73002,
+        47.30216,
+        143.19654,
+        22.39906
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@serverstatus",
+        "value": "正常"
+      },
+      "color": {
+        "func": "__ht__function(data, view) {\nif(data.a('serverstatus')==='故障'){\r\n    return 'red';\r\n}\r\nelse{\r\n     return 'green'\r\n}\n}",
+        "value": "#FEB64D"
+      },
+      "font": "bold 24px Arial",
+      "anchorX": 0.2884,
+      "anchorY": 0.35576,
+      "rect": [
+        124.73002,
+        79.20895,
+        143.19654,
+        22.39906
+      ]
+    }
+  ]
+}

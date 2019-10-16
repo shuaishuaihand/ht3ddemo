@@ -1,0 +1,298 @@
+{
+  "modified": "Mon Sep 02 2019 16:32:24 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "valveStatus",
+      "valueType": "String"
+    },
+    {
+      "attr": "handStatus",
+      "valueType": "String"
+    },
+    {
+      "attr": "alarmStatus",
+      "valueType": "String"
+    },
+    {
+      "attr": "runningStatus",
+      "valueType": "String"
+    },
+    {
+      "attr": "switch",
+      "valueType": "String",
+      "defaultValue": "js/deviceMonitor/ht/airConditioner/symbols/basic/switch1.json"
+    }
+  ],
+  "width": 200,
+  "height": 157,
+  "boundExtend": 12,
+  "interactive": true,
+  "comps": [
+    {
+      "type": "rect",
+      "background": "rgba(1,41,87,0.8)",
+      "borderWidth": 1,
+      "borderColor": "rgb(0,248,251)",
+      "rect": [
+        0.00954,
+        0,
+        199.51203,
+        156.71805
+      ]
+    },
+    {
+      "type": "text",
+      "align": "right",
+      "color": "rgb(0,0,0)",
+      "font": "14px MicrosoftYaHei",
+      "rect": [
+        132.32263,
+        96.03631,
+        75.9693,
+        18.66262
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 4,
+      "borderColor": "rgb(0,221,255)",
+      "points": [
+        12.28462,
+        -1,
+        0,
+        -1,
+        0,
+        11.94732
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 4,
+      "borderColor": "rgb(0,221,255)",
+      "rotation": 1.5708,
+      "points": [
+        199.02044,
+        -0.33133,
+        186.73583,
+        -0.33133,
+        186.73583,
+        12.61599
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 4,
+      "borderColor": "rgb(0,221,255)",
+      "rotation": -3.14159,
+      "points": [
+        198.68909,
+        143.51417,
+        186.40447,
+        143.51417,
+        186.40447,
+        156.46149
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 4,
+      "borderColor": "rgb(0,221,255)",
+      "rotation": -1.5708,
+      "points": [
+        12.28462,
+        144.10205,
+        0,
+        144.10205,
+        0,
+        157.04938
+      ]
+    },
+    {
+      "type": "rect",
+      "borderWidth": 0.5,
+      "borderColor": "#32D3EB",
+      "rect": [
+        6.14231,
+        19.94794,
+        186.73582,
+        133.44414
+      ]
+    },
+    {
+      "type": "rect",
+      "background": "rgb(16,91,176)",
+      "borderWidth": 0.5,
+      "borderColor": "#32D3EB",
+      "rect": [
+        13.42485,
+        5.47366,
+        77.95977,
+        22.47491
+      ]
+    },
+    {
+      "type": "text",
+      "text": "冷却塔 - A",
+      "align": "center",
+      "vAlign": "bottom",
+      "color": "rgb(255,255,255)",
+      "font": "12px arial",
+      "rect": [
+        18.24209,
+        11.94732,
+        67.60406,
+        16.00125
+      ]
+    },
+    {
+      "type": "text",
+      "text": "手自动状态   ：",
+      "vAlign": "bottom",
+      "color": "rgb(255,255,255)",
+      "font": "12px arial",
+      "rect": [
+        25.08098,
+        58.97661,
+        78.30364,
+        16.0173
+      ]
+    },
+    {
+      "type": "text",
+      "text": "阀门状态       ：",
+      "vAlign": "bottom",
+      "color": "rgb(255,255,255)",
+      "font": "12px arial",
+      "rect": [
+        24.04298,
+        35.57404,
+        79.34163,
+        14.87895
+      ]
+    },
+    {
+      "type": "text",
+      "text": "   告警状态      ：",
+      "vAlign": "bottom",
+      "color": "rgb(255,255,255)",
+      "font": "12px arial",
+      "rect": [
+        14.58608,
+        74.99391,
+        88.79854,
+        23.84945
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@valveStatus",
+        "value": "开"
+      },
+      "color": "rgb(0,255,212)",
+      "rect": [
+        128.08986,
+        35.57404,
+        59.29476,
+        14.87895
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@handStatus",
+        "value": "手动"
+      },
+      "color": "rgb(0,255,212)",
+      "rect": [
+        121.81777,
+        50.45298,
+        65.56685,
+        32.23261
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@alarmStatus",
+        "value": "正常"
+      },
+      "color": {
+        "func": "__ht__function(data, view) {\nif(data.a('alarmStatus')==='异常'){\r\n  return 'red';\r\n}else{\r\n    return 'rgb(0,255,212)';\r\n}\n}",
+        "value": "rgb(0,255,212)"
+      },
+      "rect": [
+        121.81777,
+        74.99391,
+        55.57168,
+        31.15198
+      ]
+    },
+    {
+      "type": "text",
+      "text": "运行状态      ：",
+      "vAlign": "bottom",
+      "color": "rgb(255,255,255)",
+      "font": "12px arial",
+      "rect": [
+        25.08098,
+        98.84337,
+        66.30364,
+        21.33919
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@runningStatus",
+        "value": "运行"
+      },
+      "color": "rgb(0,255,212)",
+      "rect": [
+        121.81777,
+        98.84337,
+        65.56685,
+        26.62722
+      ]
+    },
+    {
+      "type": "text",
+      "text": "启停控制      ：",
+      "vAlign": "bottom",
+      "color": "rgb(255,255,255)",
+      "font": "12px arial",
+      "rect": [
+        25.08098,
+        134.60446,
+        51.94056,
+        15.38337
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 1,
+      "borderColor": "#979797",
+      "points": [
+        16.83975,
+        125.47059,
+        187.38462,
+        125.47059
+      ]
+    },
+    {
+      "type": "image",
+      "name": {
+        "func": "attr@switch",
+        "value": "js/deviceMonitor/ht/airConditioner/symbols/basic/switch1.json"
+      },
+      "displayName": "switch",
+      "rect": [
+        123.35662,
+        129.53389,
+        34.38062,
+        20.45394
+      ],
+      "onClick": "__ht__function(event, data, view, point, width, height) {\nif(data.a('switch')===\"js/deviceMonitor/ht/airConditioner/symbols/basic/switch2.json\"){\r\n    data.a('switch','js/deviceMonitor/ht/airConditioner/symbols/basic/switch1.json')\r\n   \r\n}else{\r\n     data.a('switch','js/deviceMonitor/ht/airConditioner/symbols/basic/switch2.json')\r\n      \r\n}\n}"
+    }
+  ]
+}

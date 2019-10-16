@@ -1,0 +1,382 @@
+{
+  "modified": "Mon Sep 02 2019 16:32:56 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "handStatus",
+      "valueType": "String"
+    },
+    {
+      "attr": "alarmStatus",
+      "valueType": "String"
+    },
+    {
+      "attr": "runningStatus",
+      "valueType": "String"
+    },
+    {
+      "attr": "startAndStopNum",
+      "valueType": "String"
+    },
+    {
+      "attr": "node.position",
+      "valueType": "String"
+    },
+    {
+      "attr": "COP",
+      "valueType": "String"
+    },
+    {
+      "attr": "switch",
+      "valueType": "String",
+      "defaultValue": "js/deviceMonitor/ht/airConditioner/symbols/basic/switch1.json"
+    }
+  ],
+  "width": 275,
+  "height": 157,
+  "boundExtend": 12,
+  "interactive": true,
+  "comps": [
+    {
+      "type": "rect",
+      "background": "rgba(1,41,87,0.8)",
+      "borderWidth": 1,
+      "borderColor": "rgb(0,248,251)",
+      "rect": [
+        0.00954,
+        0,
+        276.46253,
+        157.48434
+      ]
+    },
+    {
+      "type": "text",
+      "align": "right",
+      "color": "rgb(0,0,0)",
+      "font": "14px MicrosoftYaHei",
+      "rect": [
+        132.32263,
+        96.03631,
+        75.9693,
+        18.66262
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 4,
+      "borderColor": "rgb(0,221,255)",
+      "points": [
+        12.28462,
+        -1,
+        0,
+        -1,
+        0,
+        11.94732
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 4,
+      "borderColor": "rgb(0,221,255)",
+      "rotation": 1.5708,
+      "points": [
+        275.50154,
+        -1.6391,
+        263.21693,
+        -1.6391,
+        263.21693,
+        12.58653
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 4,
+      "borderColor": "rgb(0,221,255)",
+      "rotation": -3.14159,
+      "points": [
+        277.70903,
+        144.537,
+        265.42441,
+        144.537,
+        265.42441,
+        157.48432
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 4,
+      "borderColor": "rgb(0,221,255)",
+      "rotation": -1.5708,
+      "points": [
+        11.95324,
+        144.20566,
+        -0.33138,
+        144.20566,
+        -0.33138,
+        157.15299
+      ]
+    },
+    {
+      "type": "rect",
+      "borderWidth": 0.5,
+      "borderColor": "#32D3EB",
+      "rect": [
+        6.14231,
+        19.94794,
+        263.21692,
+        130.73138
+      ]
+    },
+    {
+      "type": "rect",
+      "background": "rgb(16,91,176)",
+      "borderWidth": 0.5,
+      "borderColor": "#32D3EB",
+      "rect": [
+        13.42485,
+        5.47366,
+        77.95977,
+        22.47491
+      ]
+    },
+    {
+      "type": "text",
+      "text": "冷水主机 - D",
+      "align": "center",
+      "vAlign": "bottom",
+      "color": "rgb(255,255,255)",
+      "font": "12px arial",
+      "rect": [
+        18.24209,
+        11.94732,
+        67.60406,
+        16.00125
+      ]
+    },
+    {
+      "type": "text",
+      "text": "告警状态  ：",
+      "vAlign": "bottom",
+      "color": "rgb(255,255,255)",
+      "font": "12px arial",
+      "rect": [
+        15.25867,
+        58.97661,
+        63.29155,
+        19.76556
+      ]
+    },
+    {
+      "type": "text",
+      "text": "手自动状态：",
+      "vAlign": "bottom",
+      "color": "rgb(255,255,255)",
+      "font": "12px arial",
+      "rect": [
+        12.28462,
+        37.2458,
+        47.83775,
+        17.04725
+      ]
+    },
+    {
+      "type": "text",
+      "text": "   运行状态  ：",
+      "vAlign": "bottom",
+      "color": "rgb(255,255,255)",
+      "font": "12px arial",
+      "rect": [
+        5.81093,
+        85.31363,
+        72.73929,
+        20.05399
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@handStatus",
+        "value": "自动"
+      },
+      "color": "rgb(0,255,212)",
+      "rect": [
+        91.38462,
+        27.94857,
+        46.11538,
+        31.02804
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@alarmStatus",
+        "value": "异常"
+      },
+      "color": "rgb(212,0,0)",
+      "rect": [
+        91.38462,
+        58.97661,
+        52.7272,
+        19.76556
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@runningStatus",
+        "value": "运行"
+      },
+      "color": "rgb(0,255,212)",
+      "rect": [
+        91.38462,
+        78.5,
+        46.85619,
+        36.19893
+      ]
+    },
+    {
+      "type": "text",
+      "text": "   启停控制  ：",
+      "vAlign": "bottom",
+      "color": "rgb(255,255,255)",
+      "font": "12px arial",
+      "rect": [
+        5.81093,
+        114.69893,
+        69.23223,
+        25.14722
+      ]
+    },
+    {
+      "type": "text",
+      "text": "累计运行时间：",
+      "vAlign": "bottom",
+      "color": "rgb(255,255,255)",
+      "font": "12px arial",
+      "rect": [
+        151.53389,
+        37.2458,
+        64.32459,
+        17.04725
+      ]
+    },
+    {
+      "type": "text",
+      "text": "启停次数：",
+      "vAlign": "bottom",
+      "color": "rgb(255,255,255)",
+      "font": "12px arial",
+      "rect": [
+        151.53389,
+        68.43299,
+        70.50965,
+        36.93463
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@startAndStopNum",
+        "value": "200.7"
+      },
+      "color": "rgb(0,255,212)",
+      "rect": [
+        176.58337,
+        54.29305,
+        57.61762,
+        32.60726
+      ]
+    },
+    {
+      "type": "text",
+      "text": "小时",
+      "color": "rgb(255,255,255)",
+      "rect": [
+        234.20099,
+        45.50965,
+        23.35715,
+        50
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@node.position",
+        "value": "22"
+      },
+      "color": "rgb(0,255,212)",
+      "rect": [
+        222.04354,
+        79.56475,
+        38.73372,
+        32.60726
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 1,
+      "borderColor": "#979797",
+      "points": [
+        14.84414,
+        111.33102,
+        264.10193,
+        111.94953
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 1,
+      "borderColor": "#979797",
+      "displayName": "不规则图形1111",
+      "points": [
+        150.29688,
+        27.94857,
+        151.53389,
+        144.22764
+      ]
+    },
+    {
+      "type": "text",
+      "text": "告警处理：",
+      "vAlign": "bottom",
+      "color": "rgb(255,255,255)",
+      "font": "12px arial",
+      "rect": [
+        151.53389,
+        116.8502,
+        50.09896,
+        22.99595
+      ]
+    },
+    {
+      "type": "image",
+      "name": {
+        "func": "attr@switch",
+        "value": "js/deviceMonitor/ht/airConditioner/symbols/basic/switch1.json"
+      },
+      "pixelPerfect": true,
+      "displayName": "switch1",
+      "rect": [
+        91.38462,
+        116.8502,
+        40.93801,
+        26.00638
+      ],
+      "onClick": "__ht__function(event, data, view, point, width, height) {\nif(data.a('switch')===\"js/deviceMonitor/ht/airConditioner/symbols/basic/switch2.json\"){\r\n    data.a('switch','js/deviceMonitor/ht/airConditioner/symbols/basic/switch1.json');\r\n    //派发事件\r\n    notifier.fire({eventname:'codeWaterHostDLableSwitch'});\r\n}else{\r\n     data.a('switch','js/deviceMonitor/ht/airConditioner/symbols/basic/switch2.json');\r\n    //派发事件\r\n    notifier.fire({eventname:'codeWaterHostDLableSwitch'});\r\n}\n}"
+    },
+    {
+      "type": "image",
+      "name": {
+        "func": "attr@alarmhandling",
+        "value": "js/deviceMonitor/ht/airConditioner/symbols/basic/告警处理.json"
+      },
+      "displayName": "告警处理",
+      "rect": [
+        222.04354,
+        121.47361,
+        35.40252,
+        18.37254
+      ],
+      "onClick": "__ht__function(event, data, view, point, width, height) {\nnotifier.fire({eventname:'dealAlarm'});\n}"
+    }
+  ]
+}

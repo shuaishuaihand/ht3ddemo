@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>index.html</title>
+
+    <meta name="keywords" content="keyword1,keyword2,keyword3"></meta>
+    <meta name="description" content="this is my page"></meta>
+    <meta name="content-type" content="text/html; charset=UTF-8"></meta>
+
+    <!--<link rel="stylesheet" type="text/css" href="./styles.css">-->
+    <link rel="stylesheet" href="/css/vue-treeselect.min.css">
+    <!-- 引入 Vue -->
+    <script src="/js/vue2.5.17.js"></script>
+    <!-- 引入 VueTree -->
+    <script src="/js/vue-treeselect.min.js"></script>
+    <!-- 引入 Vueresource -->
+    <script src="/js/vue-resource.js" type="text/javascript"></script>
+</head>
+
+<body>   <!--:value-consists-of="valueConsistsOf"-->
+<div id="app">
+        组织机构
+        <treeselect  :options="options1" :multiple="true"  v-model="value" :value-consists-of="valueConsistsOf"
+                       placeholder="选择成员"/>
+
+</div>
+<script>
+    // register the component
+    Vue.component('treeselect', VueTreeselect.Treeselect)
+    new Vue({
+        el: '#app',
+        data: {
+            // define default value
+            value: null,
+            valueConsistsOf: 'LEAF_PRIORITY',
+            // define options
+            options1: "",
+        },
+        //初始化方法
+        mounted:function () {
+            this.findZNodes();
+
+        },
+        methods: {
+            //加载修改树结构json
+            findZNodes: function () {
+                this.$http.post("/org/findOrgUserTree").then(function (response) {
+                    this.options1 = response.data;
+                })
+            }
+        }
+    })
+</script>
+<!--<script src="/js/org.js" type="text/javascript"></script>-->
+</body>
+</html>

@@ -1,0 +1,43 @@
+{
+  "modified": "Wed Feb 20 2019 13:27:35 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "biaoqian",
+      "valueType": "String",
+      "defaultValue": "属性框标题"
+    }
+  ],
+  "width": 340,
+  "height": 42,
+  "attachStyle": "close",
+  "comps": [
+    {
+      "type": "rect",
+      "background": "rgba(156,156,156,0.52)",
+      "borderColor": "#979797",
+      "rotation": 3.14159,
+      "rect": [
+        -0.00006,
+        -3.72144,
+        340,
+        42
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@biaoqian",
+        "value": "消防设备"
+      },
+      "color": "rgb(0,199,7)",
+      "scaleX": 2,
+      "scaleY": 2,
+      "rect": [
+        50.08118,
+        10.5,
+        63.85969,
+        21
+      ]
+    }
+  ]
+}

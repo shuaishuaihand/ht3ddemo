@@ -1,0 +1,30 @@
+{
+  "modified": "Wed Aug 21 2019 10:49:55 GMT+0800 (中国标准时间)",
+  "width": 70,
+  "height": 40,
+  "comps": [
+    {
+      "type": "image",
+      "name": "js/deviceMonitor/ht/airConditioner/assets/外部图片/开关2.png",
+      "displayName": "开关2",
+      "rect": [
+        3,
+        -11.62851,
+        64,
+        64
+      ]
+    },
+    {
+      "type": "oval",
+      "background": "rgb(255,255,255)",
+      "borderWidth": 1,
+      "borderColor": "rgb(51,153,255)",
+      "rect": [
+        35.92042,
+        5.57672,
+        31.07958,
+        29.58953
+      ]
+    }
+  ]
+}

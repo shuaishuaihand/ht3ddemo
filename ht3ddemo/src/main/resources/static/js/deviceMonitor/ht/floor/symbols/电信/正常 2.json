@@ -1,0 +1,33 @@
+{
+  "width": 48,
+  "height": 48,
+  "comps": [
+    {
+      "type": "oval",
+      "borderWidth": 4,
+      "borderColor": "rgb(30,232,178)",
+      "shadowColor": "#1ABC9C",
+      "rect": [
+        3.17673,
+        3.17673,
+        41.64653,
+        41.64653
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 4,
+      "borderColor": "rgb(30,232,178)",
+      "borderJoin": "miter",
+      "shadowColor": "#1ABC9C",
+      "points": [
+        11.6639,
+        26.48626,
+        19.52946,
+        32.0134,
+        33.55992,
+        13.94388
+      ]
+    }
+  ]
+}

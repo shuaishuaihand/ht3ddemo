@@ -1,0 +1,58 @@
+{
+  "modified": "Tue Sep 03 2019 10:02:06 GMT+0800 (中国标准时间)",
+  "background": "rgb(124,145,155)",
+  "width": 158,
+  "height": 37.84192,
+  "attachStyle": "close",
+  "comps": [
+    {
+      "type": "rect",
+      "background": "rgba(6,13,36,0.8)",
+      "borderWidth": 2,
+      "borderColor": "rgb(0,151,219)",
+      "selectable": false,
+      "rect": [
+        0,
+        0,
+        158.41994,
+        37.84192
+      ]
+    },
+    {
+      "type": "text",
+      "text": "水阀",
+      "color": "rgb(247,247,247)",
+      "font": "17px sans-serif, Arial",
+      "rect": [
+        10.28701,
+        5.324,
+        70.63746,
+        32.51792
+      ]
+    },
+    {
+      "type": "text",
+      "text": "%",
+      "color": "rgb(247,247,247)",
+      "font": "17px sans-serif, Arial",
+      "rect": [
+        122.07251,
+        -16.92534,
+        41.49094,
+        78.29584
+      ]
+    },
+    {
+      "type": "text",
+      "text": "36.54",
+      "color": "rgb(247,247,247)",
+      "font": "14px sans-serif, Arial",
+      "rect": [
+        65.49396,
+        -16.92534,
+        81.26737,
+        78.29584
+      ]
+    }
+  ]
+}

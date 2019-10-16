@@ -1,0 +1,46 @@
+{
+  "modified": "Tue Sep 03 2019 15:21:22 GMT+0800 (中国标准时间)",
+  "background": "rgb(124,145,155)",
+  "width": 137,
+  "height": 37.84192,
+  "attachStyle": "close",
+  "comps": [
+    {
+      "type": "rect",
+      "background": "rgba(6,13,36,0.8)",
+      "borderWidth": 2,
+      "borderColor": "rgb(0,151,219)",
+      "selectable": false,
+      "rect": [
+        0,
+        0,
+        137,
+        37.84192
+      ]
+    },
+    {
+      "type": "text",
+      "text": "加湿阀",
+      "color": "rgb(247,247,247)",
+      "font": "17px sans-serif, Arial",
+      "rect": [
+        8.91541,
+        5.324,
+        77.15257,
+        32.51792
+      ]
+    },
+    {
+      "type": "text",
+      "text": "关闭",
+      "color": "rgb(247,247,247)",
+      "font": "16px sans-serif, Arial",
+      "rect": [
+        81.26737,
+        -16.92534,
+        78.70076,
+        78.29584
+      ]
+    }
+  ]
+}

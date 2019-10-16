@@ -1,0 +1,58 @@
+{
+  "modified": "Mon Aug 19 2019 14:31:57 GMT+0800 (中国标准时间)",
+  "background": "rgb(124,145,155)",
+  "width": 187,
+  "height": 37.84192,
+  "attachStyle": "close",
+  "comps": [
+    {
+      "type": "rect",
+      "background": "rgba(6,13,36,0.8)",
+      "borderWidth": 2,
+      "borderColor": "rgb(0,151,219)",
+      "selectable": false,
+      "rect": [
+        0,
+        0,
+        187,
+        37.84192
+      ]
+    },
+    {
+      "type": "text",
+      "text": "新风阀开度",
+      "color": "rgb(247,247,247)",
+      "font": "17px sans-serif, Arial",
+      "rect": [
+        7.96486,
+        5.324,
+        99.5406,
+        32.51792
+      ]
+    },
+    {
+      "type": "text",
+      "text": "%",
+      "color": "rgb(247,247,247)",
+      "font": "17px sans-serif, Arial",
+      "rect": [
+        159.96813,
+        -16.92534,
+        36.12184,
+        78.29584
+      ]
+    },
+    {
+      "type": "text",
+      "text": "59.69",
+      "color": "rgb(247,247,247)",
+      "font": "14px sans-serif, Arial",
+      "rect": [
+        107.50546,
+        -16.92534,
+        52.46267,
+        78.29584
+      ]
+    }
+  ]
+}

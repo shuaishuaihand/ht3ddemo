@@ -1,0 +1,1031 @@
+{
+  "v": "7.0.1",
+  "p": {
+    "autoAdjustIndex": true,
+    "hierarchicalRendering": true,
+    "postProcessingData": {
+      "Bloom": {
+        "enable": false,
+        "strength": 1.5,
+        "threshold": 0.55,
+        "radius": 0.4
+      },
+      "Dof": {
+        "enable": false,
+        "aperture": 0.025,
+        "maxblur": 1,
+        "image": null
+      }
+    }
+  },
+  "d": [
+    {
+      "c": "ht.Node",
+      "i": 4984,
+      "p": {
+        "position": {
+          "x": -4,
+          "y": -10.90537
+        },
+        "anchorElevation": 0,
+        "width": 126.9287,
+        "height": 83.12536,
+        "elevation": 4.3335
+      },
+      "s": {
+        "shape3d": "js/deviceMonitor/ht/freshAirUnit/models/空调机组/蜗牛.json",
+        "wf.visible": "selected",
+        "2d.movable": false,
+        "3d.movable": false,
+        "2d.editable": false,
+        "3d.editable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 4985,
+      "p": {
+        "rotation": -3.14159,
+        "rotationX": 3.14159,
+        "position": {
+          "x": -345,
+          "y": -11.3806
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.9,
+          "y": 0.9
+        },
+        "scaleTall": 0.9,
+        "width": 27.14944,
+        "height": 84.8868,
+        "elevation": 90
+      },
+      "s": {
+        "shape3d": "js/deviceMonitor/ht/freshAirUnit/models/空调机组/风阀.json",
+        "wf.visible": "selected",
+        "shape3d.color": "#FEB64D",
+        "2d.movable": false,
+        "3d.movable": false,
+        "2d.editable": false,
+        "3d.editable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 4986,
+      "p": {
+        "position": {
+          "x": -318,
+          "y": -11.78612
+        },
+        "anchorElevation": 0,
+        "width": 223.94194,
+        "height": 84.88685,
+        "tall": 74,
+        "elevation": 17
+      },
+      "s": {
+        "all.color": "rgb(51,153,255)",
+        "front.color": null,
+        "front.transparent": true,
+        "front.visible": false,
+        "right.visible": false,
+        "left.visible": false,
+        "2d.movable": false,
+        "3d.movable": false,
+        "2d.editable": false,
+        "3d.editable": false,
+        "all.reverse.color": "rgb(51,153,255)",
+        "top.color": null
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 4987,
+      "p": {
+        "position": {
+          "x": -74,
+          "y": -11.78612
+        },
+        "anchorElevation": 0,
+        "width": 264,
+        "height": 84.88685,
+        "tall": 100
+      },
+      "s": {
+        "all.color": "rgb(51,153,255)",
+        "front.visible": false,
+        "left.visible": false,
+        "right.visible": false,
+        "2d.movable": false,
+        "3d.movable": false,
+        "2d.editable": false,
+        "3d.editable": false,
+        "all.reverse.color": "rgb(51,153,255)"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 4988,
+      "p": {
+        "position": {
+          "x": 209,
+          "y": -9.95084
+        },
+        "anchorElevation": 0,
+        "width": 301,
+        "height": 85.03443,
+        "tall": 74,
+        "elevation": 17
+      },
+      "s": {
+        "all.color": "rgb(51,153,255)",
+        "left.visible": false,
+        "front.visible": false,
+        "right.visible": false,
+        "2d.movable": false,
+        "3d.movable": false,
+        "2d.editable": false,
+        "3d.editable": false,
+        "all.reverse.color": "rgb(51,153,255)"
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 4989,
+      "p": {
+        "position": {
+          "x": -250,
+          "y": -13.50318
+        },
+        "width": 1,
+        "height": 81.45268,
+        "tall": 74,
+        "elevation": 53,
+        "segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": -250.5,
+              "y": -54.22952
+            },
+            {
+              "x": -249.5,
+              "y": 27.22316
+            }
+          ]
+        },
+        "thickness": "8"
+      },
+      "s": {
+        "all.color": "rgb(48,242,120)",
+        "shape.background": null,
+        "shape.border.width": 14,
+        "shape.border.color": "#DDDDDD",
+        "2d.movable": false,
+        "3d.movable": false,
+        "2d.editable": false,
+        "3d.editable": false
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 4990,
+      "p": {
+        "position": {
+          "x": -179,
+          "y": -11.10718
+        },
+        "width": 1.05783,
+        "height": 83.56833,
+        "tall": 100,
+        "elevation": 49,
+        "segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": -179.52892,
+              "y": -52.89135
+            },
+            {
+              "x": -178.47109,
+              "y": 30.67698
+            }
+          ]
+        },
+        "thickness": "8"
+      },
+      "s": {
+        "all.color": "rgb(242,83,75)",
+        "shape.background": null,
+        "shape.border.width": 14,
+        "shape.border.color": "#DDDDDD",
+        "2d.movable": false,
+        "3d.movable": false,
+        "2d.editable": false,
+        "3d.editable": false
+      }
+    },
+    {
+      "c": "ht.Polyline",
+      "i": 4991,
+      "p": {
+        "rotationX": 1.5708,
+        "rotationZ": -0.01745,
+        "position": {
+          "x": -178,
+          "y": 11.92928
+        },
+        "width": 3.52144,
+        "height": 163.74705,
+        "tall": 0,
+        "elevation": -40,
+        "segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": -179.76073,
+              "y": -69.94425,
+              "e": -40
+            },
+            {
+              "x": -176.23928,
+              "y": 93.80281,
+              "e": -40
+            }
+          ]
+        },
+        "thickness": "8"
+      },
+      "s": {
+        "shape.border.width": 10,
+        "shape3d": "cylinder",
+        "shape3d.color": "rgb(242,83,75)",
+        "shape3d.top.color": "#BFBFBF",
+        "shape3d.bottom.color": "#BFBFBF",
+        "shape.border.color": "#BFBFBF",
+        "2d.movable": false,
+        "3d.movable": false,
+        "2d.editable": false,
+        "3d.editable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 4992,
+      "p": {
+        "rotationX": 1.5708,
+        "position": {
+          "x": -178,
+          "y": 5
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 40,
+          "y": 40
+        },
+        "scaleTall": 40,
+        "elevation": -66
+      },
+      "s": {
+        "shape3d": "js/deviceMonitor/ht/freshAirUnit/models/空调机组/旋转阀.json",
+        "wf.visible": "selected",
+        "2d.movable": false,
+        "3d.movable": false,
+        "2d.editable": false,
+        "3d.editable": false
+      }
+    },
+    {
+      "c": "ht.Polyline",
+      "i": 4993,
+      "p": {
+        "displayName": "管道",
+        "rotationX": 1.5708,
+        "position": {
+          "x": 128.70133,
+          "y": 12.04406
+        },
+        "width": 1,
+        "height": 202.90213,
+        "tall": 0,
+        "elevation": -13,
+        "segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": 128.70133,
+              "y": -89.407,
+              "e": -13
+            },
+            {
+              "x": 128.70133,
+              "y": 113.49513,
+              "e": -13
+            }
+          ]
+        }
+      },
+      "s": {
+        "shape.border.width": 10,
+        "shape3d": "cylinder",
+        "shape3d.color": "rgb(0,199,7)",
+        "shape3d.top.color": "#BFBFBF",
+        "shape3d.bottom.color": "#BFBFBF",
+        "shape.border.color": "#BFBFBF",
+        "2d.movable": false,
+        "3d.movable": false,
+        "2d.editable": false,
+        "3d.editable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 4994,
+      "p": {
+        "rotationX": 1.5708,
+        "position": {
+          "x": 129.20133,
+          "y": 3
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 50,
+          "y": 50
+        },
+        "scaleTall": 50,
+        "elevation": -60
+      },
+      "s": {
+        "shape3d": "js/deviceMonitor/ht/freshAirUnit/models/空调机组/旋转阀.json",
+        "wf.visible": "selected",
+        "2d.movable": false,
+        "3d.movable": false,
+        "2d.editable": false,
+        "3d.editable": false
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 4995,
+      "p": {
+        "position": {
+          "x": -207,
+          "y": -11.61295
+        },
+        "width": 1,
+        "height": 84.27685,
+        "tall": 10,
+        "elevation": 95,
+        "segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": -206.6682,
+              "y": -53.75138
+            },
+            {
+              "x": -207.3318,
+              "y": 30.52547
+            }
+          ]
+        },
+        "thickness": "1"
+      },
+      "s": {
+        "all.color": "#60ACFC",
+        "shape.background": null,
+        "shape.border.width": 14,
+        "shape.border.color": "#DDDDDD",
+        "2d.movable": false,
+        "3d.movable": false,
+        "2d.editable": false,
+        "3d.editable": false
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 4996,
+      "p": {
+        "position": {
+          "x": 57.82975,
+          "y": -9.72837
+        },
+        "width": 1.08093,
+        "height": 84.31254,
+        "tall": 10,
+        "elevation": 95,
+        "segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": 58.37022,
+              "y": -51.88464
+            },
+            {
+              "x": 57.28929,
+              "y": 32.4279
+            }
+          ]
+        },
+        "thickness": "1"
+      },
+      "s": {
+        "all.color": "#60ACFC",
+        "shape.background": null,
+        "shape.border.width": 14,
+        "shape.border.color": "#DDDDDD",
+        "2d.movable": false,
+        "3d.movable": false,
+        "2d.editable": false,
+        "3d.editable": false
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 4997,
+      "p": {
+        "position": {
+          "x": 57,
+          "y": -10.8093
+        },
+        "width": 1,
+        "height": 86.4744,
+        "tall": 20,
+        "elevation": 10,
+        "segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": 57,
+              "y": -54.0465
+            },
+            {
+              "x": 57,
+              "y": 32.4279
+            }
+          ]
+        },
+        "thickness": "1"
+      },
+      "s": {
+        "all.color": "rgb(51,153,255)",
+        "shape.background": null,
+        "shape.border.width": 14,
+        "shape.border.color": "#DDDDDD",
+        "2d.movable": false,
+        "3d.movable": false,
+        "2d.editable": false,
+        "3d.editable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 4998,
+      "p": {
+        "tag": "yelun",
+        "position": {
+          "x": -20,
+          "y": -9
+        },
+        "elevation": 43.84715
+      },
+      "s": {
+        "shape3d": "js/deviceMonitor/ht/freshAirUnit/models/空调机组/蜗牛_叶片.json",
+        "wf.visible": "selected",
+        "2d.movable": false,
+        "3d.movable": false,
+        "2d.editable": false,
+        "3d.editable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 4999,
+      "p": {
+        "tag": "right_arrow1",
+        "position": {
+          "x": 375,
+          "y": -25
+        },
+        "anchorElevation": 0,
+        "width": 120,
+        "height": 50,
+        "tall": 70,
+        "elevation": 20
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "front.image": "js/deviceMonitor/ht/freshAirUnit/symbols/basic/水流/水流 2.json",
+        "front.transparent": false,
+        "bottom.visible": false,
+        "top.visible": false,
+        "right.visible": false,
+        "left.visible": false,
+        "back.visible": false,
+        "front.uv.scale": [
+          3,
+          3
+        ],
+        "front.uv.offset": [
+          0,
+          0
+        ],
+        "all.visible": false,
+        "front.visible": true,
+        "2d.movable": false,
+        "3d.movable": false,
+        "2d.editable": false,
+        "3d.editable": false,
+        "front.reverse.color": "rgb(16,176,21)",
+        "back.reverse.color": null
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 5000,
+      "p": {
+        "tag": "left_arrow1",
+        "position": {
+          "x": -450,
+          "y": -37.55724
+        },
+        "anchorElevation": 0,
+        "width": 152.44123,
+        "height": 57.11448,
+        "tall": 70,
+        "elevation": 20
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "front.image": "js/deviceMonitor/ht/freshAirUnit/symbols/basic/水流/水流 2.json",
+        "front.uv.scale": [
+          3,
+          3
+        ],
+        "front.uv.offset": [
+          0,
+          0
+        ],
+        "all.visible": false,
+        "front.visible": true,
+        "all.reverse.color": "rgb(0,199,7)",
+        "2d.movable": false,
+        "3d.movable": false,
+        "2d.editable": false,
+        "3d.editable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 5001,
+      "p": {
+        "position": {
+          "x": -120,
+          "y": -9.95084
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 4,
+          "y": 4
+        },
+        "scaleTall": 8,
+        "elevation": 101
+      },
+      "s": {
+        "shape3d": "js/deviceMonitor/ht/freshAirUnit/models/空调机组/温感.json",
+        "wf.visible": "selected",
+        "2d.movable": false,
+        "3d.movable": false,
+        "2d.editable": false,
+        "3d.editable": false
+      }
+    },
+    {
+      "c": "ht.Polyline",
+      "i": 5002,
+      "p": {
+        "rotationX": 1.5708,
+        "position": {
+          "x": -120,
+          "y": -10
+        },
+        "width": 1,
+        "height": 71.30573,
+        "tall": 0,
+        "elevation": 65,
+        "segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": -120,
+              "y": -45.65286,
+              "e": 65
+            },
+            {
+              "x": -120,
+              "y": 25.65286,
+              "e": 65
+            }
+          ]
+        },
+        "thickness": "2"
+      },
+      "s": {
+        "shape.border.width": 10,
+        "shape3d": "cylinder",
+        "shape3d.color": "#BFBFBF",
+        "shape3d.top.color": "#BFBFBF",
+        "shape3d.bottom.color": "#BFBFBF",
+        "shape.border.color": "#BFBFBF",
+        "2d.movable": false,
+        "3d.movable": false,
+        "2d.editable": false,
+        "3d.editable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 5003,
+      "p": {
+        "position": {
+          "x": 280,
+          "y": -9.95084
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 4,
+          "y": 4
+        },
+        "scaleTall": 8,
+        "elevation": 93
+      },
+      "s": {
+        "shape3d": "js/deviceMonitor/ht/freshAirUnit/models/空调机组/温感.json",
+        "wf.visible": "selected",
+        "2d.movable": false,
+        "3d.movable": false,
+        "2d.editable": false,
+        "3d.editable": false
+      }
+    },
+    {
+      "c": "ht.Polyline",
+      "i": 5004,
+      "p": {
+        "displayName": "管道",
+        "rotationX": 1.5708,
+        "position": {
+          "x": 280,
+          "y": -10
+        },
+        "width": 1,
+        "height": 71.30573,
+        "tall": 0,
+        "elevation": 65,
+        "segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": 280,
+              "y": -45.65286,
+              "e": 65
+            },
+            {
+              "x": 280,
+              "y": 25.65286,
+              "e": 65
+            }
+          ]
+        },
+        "thickness": "2"
+      },
+      "s": {
+        "shape.border.width": 10,
+        "shape3d": "cylinder",
+        "shape3d.color": "#BFBFBF",
+        "shape3d.top.color": "#BFBFBF",
+        "shape3d.bottom.color": "#BFBFBF",
+        "shape.border.color": "#BFBFBF",
+        "2d.movable": false,
+        "3d.movable": false,
+        "2d.editable": false,
+        "3d.editable": false
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 5250,
+      "p": {
+        "position": {
+          "x": -207,
+          "y": -11.61295
+        },
+        "width": 1,
+        "height": 84.27685,
+        "tall": 20,
+        "elevation": 9,
+        "segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": -206.6682,
+              "y": -53.75138
+            },
+            {
+              "x": -207.3318,
+              "y": 30.52547
+            }
+          ]
+        },
+        "thickness": "1"
+      },
+      "s": {
+        "all.color": "#60ACFC",
+        "shape.background": null,
+        "shape.border.width": 14,
+        "shape.border.color": "#DDDDDD",
+        "2d.movable": false,
+        "3d.movable": false,
+        "2d.editable": false,
+        "3d.editable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 4986,
+      "p": {
+        "displayName": "送风温度",
+        "image": "js/deviceMonitor/ht/freshAirUnit/symbols/htdesign/label/送风温度.json",
+        "position": {
+          "x": 296.2504,
+          "y": -10.60718
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 1,
+          "y": 1
+        },
+        "elevation": 120
+      },
+      "s": {
+        "shape3d": "billboard",
+        "shape3d.image": "js/deviceMonitor/ht/freshAirUnit/symbols/htdesign/label/送风温度.json",
+        "shape3d.autorotate": true,
+        "shape3d.fixSizeOnScreen": [
+          -1,
+          -1
+        ],
+        "2d.editable": false,
+        "3d.editable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 5073,
+      "p": {
+        "displayName": "新风阀开度",
+        "image": "js/deviceMonitor/ht/freshAirUnit/symbols/htdesign/label/新风阀开度.json",
+        "position": {
+          "x": -347.77601,
+          "y": -7.79767
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 1,
+          "y": 1
+        },
+        "elevation": 100
+      },
+      "s": {
+        "shape3d": "billboard",
+        "shape3d.image": "js/deviceMonitor/ht/freshAirUnit/symbols/htdesign/label/新风阀开度.json",
+        "shape3d.autorotate": true,
+        "shape3d.fixSizeOnScreen": [
+          -1,
+          -1
+        ],
+        "2d.editable": false,
+        "3d.editable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 21175,
+      "p": {
+        "displayName": "低温检测",
+        "image": "js/deviceMonitor/ht/freshAirUnit/symbols/htdesign/label/低温检测.json",
+        "position": {
+          "x": -115.40549,
+          "y": -9.3572
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 1,
+          "y": 1
+        },
+        "elevation": 120
+      },
+      "s": {
+        "shape3d": "billboard",
+        "shape3d.image": "js/deviceMonitor/ht/freshAirUnit/symbols/htdesign/label/低温检测.json",
+        "shape3d.autorotate": true,
+        "shape3d.fixSizeOnScreen": [
+          -1,
+          -1
+        ],
+        "2d.editable": false,
+        "3d.editable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 41296,
+      "p": {
+        "displayName": "滤网",
+        "image": "js/deviceMonitor/ht/freshAirUnit/symbols/htdesign/label/滤网.json",
+        "position": {
+          "x": -273.09172,
+          "y": 20.544
+        },
+        "anchorElevation": 0,
+        "elevation": -30
+      },
+      "s": {
+        "shape3d": "billboard",
+        "shape3d.image": "js/deviceMonitor/ht/freshAirUnit/symbols/htdesign/label/滤网.json",
+        "shape3d.autorotate": true,
+        "shape3d.fixSizeOnScreen": [
+          -1,
+          -1
+        ],
+        "2d.movable": false,
+        "3d.movable": false,
+        "2d.editable": false,
+        "3d.editable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 45348,
+      "p": {
+        "displayName": "水阀",
+        "image": "js/deviceMonitor/ht/freshAirUnit/symbols/htdesign/label/水阀.json",
+        "position": {
+          "x": -165.528,
+          "y": 30.67699
+        },
+        "anchorElevation": 0,
+        "elevation": -120
+      },
+      "s": {
+        "shape3d": "billboard",
+        "shape3d.image": "js/deviceMonitor/ht/freshAirUnit/symbols/htdesign/label/水阀.json",
+        "shape3d.autorotate": true,
+        "shape3d.fixSizeOnScreen": [
+          -1,
+          -1
+        ],
+        "2d.movable": false,
+        "3d.movable": false,
+        "2d.editable": false,
+        "3d.editable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 45357,
+      "p": {
+        "displayName": "加湿阀",
+        "image": "js/deviceMonitor/ht/freshAirUnit/symbols/htdesign/label/加湿阀.json",
+        "position": {
+          "x": 140.5,
+          "y": 33.4279
+        },
+        "anchorElevation": 0,
+        "elevation": -25
+      },
+      "s": {
+        "shape3d": "billboard",
+        "shape3d.image": "js/deviceMonitor/ht/freshAirUnit/symbols/htdesign/label/加湿阀.json",
+        "shape3d.autorotate": true,
+        "shape3d.fixSizeOnScreen": [
+          -1,
+          -1
+        ],
+        "2d.movable": false,
+        "3d.movable": false,
+        "2d.editable": false,
+        "3d.editable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 53611,
+      "p": {
+        "displayName": "送风机",
+        "image": "js/deviceMonitor/ht/freshAirUnit/symbols/htdesign/label/04.json",
+        "position": {
+          "x": -8.23678,
+          "y": 8.40581
+        },
+        "anchorElevation": 0,
+        "elevation": -150
+      },
+      "s": {
+        "shape3d": "billboard",
+        "shape3d.image": "js/deviceMonitor/ht/freshAirUnit/symbols/htdesign/label/04.json",
+        "shape3d.autorotate": true,
+        "shape3d.fixSizeOnScreen": [
+          -1,
+          -1
+        ],
+        "2d.movable": false,
+        "3d.movable": false,
+        "2d.editable": false,
+        "3d.editable": false
+      }
+    }
+  ],
+  "scene": {
+    "eye": [
+      -17.52878,
+      196.65604,
+      657.70751
+    ],
+    "center": [
+      0,
+      0,
+      0
+    ],
+    "near": 10,
+    "far": 10000,
+    "gridVisible": true,
+    "gridSize": 50,
+    "gridGap": 50,
+    "gridColor": [
+      0.4,
+      0.75,
+      0.85,
+      1
+    ],
+    "editHelperDisabled": false
+  }
+}

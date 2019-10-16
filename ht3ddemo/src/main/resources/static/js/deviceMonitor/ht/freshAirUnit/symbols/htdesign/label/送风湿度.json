@@ -1,0 +1,57 @@
+{
+  "modified": "Fri Aug 16 2019 10:21:47 GMT+0800 (中国标准时间)",
+  "background": "rgb(124,145,155)",
+  "width": 187,
+  "height": 37.84192,
+  "attachStyle": "close",
+  "comps": [
+    {
+      "type": "rect",
+      "background": "rgb(124,145,155)",
+      "borderColor": "#979797",
+      "selectable": false,
+      "rect": [
+        0,
+        0,
+        187,
+        37.84192
+      ]
+    },
+    {
+      "type": "text",
+      "text": "送风湿度",
+      "color": "rgb(247,247,247)",
+      "font": "17px sans-serif, Arial",
+      "rect": [
+        7.96486,
+        5.324,
+        99.5406,
+        32.51792
+      ]
+    },
+    {
+      "type": "text",
+      "text": "%",
+      "color": "rgb(247,247,247)",
+      "font": "17px sans-serif, Arial",
+      "rect": [
+        159.96813,
+        -16.92534,
+        36.12184,
+        78.29584
+      ]
+    },
+    {
+      "type": "text",
+      "text": "58.16",
+      "color": "rgb(247,247,247)",
+      "font": "14px sans-serif, Arial",
+      "rect": [
+        107.50546,
+        -16.92534,
+        52.46267,
+        78.29584
+      ]
+    }
+  ]
+}

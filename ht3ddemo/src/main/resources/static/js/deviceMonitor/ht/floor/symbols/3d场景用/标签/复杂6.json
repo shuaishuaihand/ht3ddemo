@@ -1,0 +1,24 @@
+{
+  "width": 250,
+  "height": 78,
+  "boundExtend": 1,
+  "comps": [
+    {
+      "type": "shape",
+      "background": "rgba(16,16,41,0.80)",
+      "borderColor": "rgba(76,205,252,0.50)",
+      "points": [
+        0,
+        78,
+        0,
+        0,
+        232.16437,
+        0,
+        250,
+        14.61001,
+        250,
+        78
+      ]
+    }
+  ]
+}

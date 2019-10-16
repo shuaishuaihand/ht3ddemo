@@ -1,0 +1,184 @@
+{
+  "v": "7.0.1",
+  "p": {
+    "autoAdjustIndex": true,
+    "hierarchicalRendering": true,
+    "postProcessingData": {
+      "Bloom": {
+        "enable": false,
+        "strength": 1.5,
+        "threshold": 0.55,
+        "radius": 0.4
+      },
+      "Dof": {
+        "enable": false,
+        "aperture": 0.025,
+        "maxblur": 1,
+        "image": null
+      }
+    }
+  },
+  "a": {
+    "rotateAsClock": false,
+    "connectActionType": null,
+    "width": 0,
+    "height": 10000
+  },
+  "d": [
+    {
+      "c": "ht.Shape",
+      "i": 5832,
+      "p": {
+        "displayName": "地板",
+        "position": {
+          "x": 1699.72248,
+          "y": 436.02548
+        },
+        "anchorElevation": 0,
+        "width": 23093.31728,
+        "height": 11851.66472,
+        "tall": 10,
+        "elevation": -5,
+        "segments": {
+          "__a": [
+            1,
+            2,
+            2,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": -9846.93616,
+              "y": -5489.80689,
+              "e": 0
+            },
+            {
+              "x": 13246.38112,
+              "y": -5388.07586,
+              "e": 0
+            },
+            {
+              "x": 13246.38112,
+              "y": 6361.85784,
+              "e": 0
+            },
+            {
+              "x": -9846.93616,
+              "y": 6310.99233,
+              "e": 0
+            }
+          ]
+        },
+        "thickness": -1
+      },
+      "s": {
+        "shape3d.color": "#EEEEEE",
+        "shape3d.top.color": "#EEEEEE",
+        "shape3d.bottom.color": "#EEEEEE",
+        "shape.background": "#EEEEEE",
+        "shape3d.top.uv.scale": [
+          100,
+          60
+        ],
+        "shape3d.top.image": "js/deviceMonitor/ht/floor2/assets/贴图/地板贴图/sngz.jpg",
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "shape3d.opacity": 1,
+        "envmap": 0.9,
+        "interactive": true
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 5833,
+      "p": {
+        "displayName": "标签",
+        "tag": "testicon",
+        "image": "js/deviceMonitor/ht/floor2/symbols/3d场景用/icon/log.json",
+        "position": {
+          "x": 4636,
+          "y": 1251
+        },
+        "anchorElevation": 0,
+        "width": 1000,
+        "height": 20,
+        "tall": 1000,
+        "elevation": 200
+      },
+      "s": {
+        "shape3d": "billboard",
+        "shape3d.image": "js/deviceMonitor/ht/floor2/symbols/3d场景用/icon/log.json",
+        "shape3d.autorotate": true,
+        "shape3d.fixSizeOnScreen": false,
+        "wf.visible": "selected",
+        "interactive": true,
+        "2d.movable": false,
+        "3d.movable": false,
+        "2d.editable": false,
+        "3d.editable": false,
+        "shape3d.vector.dynamic": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 5834,
+      "p": {
+        "position": {
+          "x": 8267,
+          "y": 4408
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 3,
+          "y": 3
+        },
+        "scaleTall": 3
+      },
+      "s": {
+        "shape3d": "js/deviceMonitor/ht/floor2/models/空调机组/空调机组.json",
+        "wf.visible": "selected"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 5887,
+      "p": {
+        "position": {
+          "x": 1666.43443,
+          "y": 632.1605
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.3,
+          "y": 0.3
+        },
+        "scaleTall": 0.3
+      },
+      "s": {
+        "shape3d": "js/deviceMonitor/ht/floor2/models/楼层/楼层模型.json",
+        "wf.visible": "selected"
+      }
+    }
+  ],
+  "scene": {
+    "eye": [
+      2547.66124,
+      17328.79646,
+      11891.07704
+    ],
+    "center": [
+      2408.82398,
+      -5.00001,
+      3.40389
+    ],
+    "near": 100,
+    "far": 500000,
+    "gridVisible": false,
+    "gridSize": 50,
+    "gridGap": 50,
+    "gridColor": "rgb(247,247,247)",
+    "editHelperDisabled": true
+  }
+}

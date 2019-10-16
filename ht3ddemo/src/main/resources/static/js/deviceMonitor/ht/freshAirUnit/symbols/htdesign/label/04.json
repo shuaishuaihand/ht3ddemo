@@ -1,0 +1,56 @@
+{
+  "modified": "Tue Sep 03 2019 10:34:53 GMT+0800 (中国标准时间)",
+  "width": 80.63331,
+  "height": 117.19794,
+  "comps": [
+    {
+      "type": "rect",
+      "background": "rgba(6,12,36,0.8)",
+      "borderWidth": 2,
+      "borderColor": "rgb(0,151,219)",
+      "gradientColor": null,
+      "rect": [
+        4,
+        5,
+        72.63331,
+        107.19794
+      ]
+    },
+    {
+      "type": "text",
+      "text": "送风机",
+      "color": "rgb(247,247,247)",
+      "font": "15px sans-serif, Arial",
+      "rect": [
+        14.59007,
+        18.44764,
+        62.04324,
+        16.27021
+      ]
+    },
+    {
+      "type": "text",
+      "text": "开启",
+      "color": "rgb(247,247,247)",
+      "font": "15px sans-serif, Arial",
+      "rect": [
+        18.38716,
+        38.28042,
+        124.08649,
+        34.71785
+      ]
+    },
+    {
+      "type": "text",
+      "text": "正常",
+      "color": "rgb(247,247,247)",
+      "font": "15px sans-serif, Arial",
+      "rect": [
+        18.38716,
+        72.99828,
+        97.78411,
+        30.7319
+      ]
+    }
+  ]
+}
